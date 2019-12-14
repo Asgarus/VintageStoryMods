@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSModLauncher", "VSModLauncher.csproj", "{203DFBF1-3599-43FD-8487-E1C79C2B788F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3} = {E7D7C610-9ECB-4315-8573-BF04AD9811E3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "steppesanddeserts", "mods\steppesanddeserts\steppesanddeserts.csproj", "{E7D7C610-9ECB-4315-8573-BF04AD9811E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +22,12 @@ Global
 		{203DFBF1-3599-43FD-8487-E1C79C2B788F}.Release x64|Any CPU.Build.0 = Release|Any CPU
 		{203DFBF1-3599-43FD-8487-E1C79C2B788F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203DFBF1-3599-43FD-8487-E1C79C2B788F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3}.Release x64|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3}.Release x64|Any CPU.Build.0 = Release|Any CPU
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D7C610-9ECB-4315-8573-BF04AD9811E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
