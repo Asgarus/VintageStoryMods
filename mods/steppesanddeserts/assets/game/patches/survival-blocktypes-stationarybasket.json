@@ -1,0 +1,86 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/dialogTitleLangCode/papyrus",
+    "value": "basketcontents",
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/drop/papyrus",
+    "value": true,
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/quantitySlots/papyrus",
+    "value": 8,
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/retrieveOnly/papyrus",
+    "value": false,
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/shape/papyrus",
+    "value": "block/reed/basket-normal",
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/storageType/papyrus",
+    "value": 189,
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/types/3",
+    "value": "papyrus",
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventoryStacksByType/*-east/0/stacks/3",
+    "value": {
+      "type": "block",
+      "code": "stationarybasket-east",
+      "attributes": {
+        "type": "papyrus"
+      }
+    },
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/sounds/hit",
+    "value": "block/plant",
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/papyrus-lid",
+    "value": {
+      "base": "steppesanddeserts:block/reed/basket/papyrus-lid"
+    },
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/papyrus-sidesSN",
+    "value": {
+      "base": "steppesanddeserts:block/reed/basket/papyrus-northsouth"
+    },
+    "file": "blocktypes/stationarybasket.json"
+  },
+  {
+    "op": "add",
+    "path": "/textures/papyrus-sidesWE",
+    "value": {
+      "base": "steppesanddeserts:block/reed/basket/papyrus-westeast"
+    },
+    "file": "blocktypes/stationarybasket.json"
+  }
+]

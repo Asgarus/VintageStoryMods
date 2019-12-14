@@ -1,0 +1,7 @@
+{
+	code: "papyrusmark",
+	texture: { base: "item/resource/papyrusmark" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 100,
+}

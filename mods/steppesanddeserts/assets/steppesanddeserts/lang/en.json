@@ -1,0 +1,24 @@
+﻿{
+	"game:block-papyrus-stationarybasket-*": "Papyrus basket",
+	"game:item-vegetable-cookedpapyrusroot": "Cooked Papyrus Root",
+	"game:item-vegetable-cookedpapyrussplitroot": "Split Cooked Papyrus Root",
+
+	"item-papyrusfiber": "Papyrus Fiber",
+	"itemdesc-papyrusfiber": "Fiber obtained from papyrus stems.",
+
+	"item-papyrusmark": "Papyrus Mark",
+	"itemdesc-papyrusbark": "Mark obtained from papyrus stems.",
+
+	"item-papyrusbasket": "Papyrus Basket",
+	"itemdesc-papyrusbasket": "A basket braided from papyrus fiber.",
+
+	"item-papyrusstems": "Papyrus Stems",
+	"itemdesc-papyrusstems": "The stems of a papyrus plant.",
+
+	"item-papyrusroot": "Papyrus Root",
+	"itemdesc-papyrusroot": "The root of a papyrus plant.",
+
+	"item-papyrussplitroot": "Split Papyrus Root",
+	"itemdesc-papyrussplitroot": "Half a root of a papyrus plant.",
+
+}

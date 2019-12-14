@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{e7d7c610-9ecb-4315-8573-bf04ad9811e3}</ProjectGuid>
+    <ProjectGuid>{E7D7C610-9ECB-4315-8573-BF04AD9811E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>steppesanddeserts</RootNamespace>
@@ -32,56 +32,75 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-
-
-    <Reference Include="Microsoft.CSharp"/>
-
-    <Reference Include="System.Data"/>
-
-    <Reference Include="System.Net.Http"/>
-
-    <Reference Include="System.Xml"/>
-
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
     <Reference Include="VintagestoryAPI">
       <HintPath>D:\Games\Vintage Story\DEV\CODING\VintagestoryAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="VSSurvivalMod">
       <HintPath>D:\Games\Vintage Story\DEV\CODING\Mods\VSSurvivalMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="VSEssentials">
       <HintPath>D:\Games\Vintage Story\DEV\CODING\Mods\VSEssentials.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="VSCreativeMod">
       <HintPath>D:\Games\Vintage Story\DEV\CODING\Mods\VSCreativeMod.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:\Games\Vintage Story\DEV\CODING\Lib\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\" />
-    <Folder Include="src\" />
+    <Content Include="assets\steppesanddeserts\textures\block\reed\basket\papyrus-lid.png" />
+    <Content Include="assets\steppesanddeserts\textures\block\reed\basket\papyrus-northsouth.png" />
+    <Content Include="assets\steppesanddeserts\textures\block\reed\basket\papyrus-westeast.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\bag\basket\papyrusbasket.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\food\vegetable\cookedpapyrusroot.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\food\vegetable\cookedpapyrussplitroot.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\food\vegetable\papyrusroot.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\food\vegetable\papyrussplitroot.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\resource\papyrusfiber.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\resource\papyrusmark.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\resource\papyrusroot.png" />
+    <Content Include="assets\steppesanddeserts\textures\item\resource\papyrussplitroot.png" />
     <Content Include="modinfo.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\game\patches\survival-blocktypes-stationarybasket.json" />
+    <None Include="assets\game\patches\survival-itemtypes-food-vegetable.json" />
+    <None Include="assets\steppesanddeserts\itemtypes\bag\papyrusbasket.json" />
+    <None Include="assets\steppesanddeserts\itemtypes\resource\papyrusfiber.json" />
+    <None Include="assets\steppesanddeserts\itemtypes\resource\papyrusmark.json" />
+    <None Include="assets\steppesanddeserts\itemtypes\resource\papyrusroot.json" />
+    <None Include="assets\steppesanddeserts\itemtypes\resource\papyrussplitroot.json" />
+    <None Include="assets\steppesanddeserts\itemtypes\resource\papyrusstems.json" />
+    <None Include="assets\steppesanddeserts\lang\en.json" />
+    <None Include="assets\steppesanddeserts\recipes\grid\papyrusstems.json" />
+    <None Include="assets\steppesanddeserts\recipes\grid\stationarybasket-deconstruct.json" />
+    <None Include="assets\steppesanddeserts\recipes\grid\stationarybasket.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\BlockReedsExtended.cs" />
+    <Compile Include="src\ItemPapyrusRoot.cs" />
+    <Compile Include="src\SteppesAndDeserts.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\steppesanddeserts\blocktypes\plant\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-
     </PostBuildEvent>
   </PropertyGroup>
 </Project>

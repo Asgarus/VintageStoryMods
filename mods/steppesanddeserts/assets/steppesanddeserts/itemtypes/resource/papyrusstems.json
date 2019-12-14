@@ -1,0 +1,11 @@
+{
+	code: "papyrusstems",
+	texture: { base: "game:item/resource/papyrus" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 64,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 4,
+	},
+	materialDensity: 100,
+}

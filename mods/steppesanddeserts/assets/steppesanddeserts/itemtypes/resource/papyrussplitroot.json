@@ -1,0 +1,19 @@
+{
+	code: "papyrussplitroot",
+	class: "ItemPapyrusRoot",
+	texture: { base: "item/resource/papyrussplitroot" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 100,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 4,
+		meltingPoint: 150,
+		maxTemperature: 300,
+		meltingDuration: 15,
+		smeltingType: "cook",
+		smeltedRatio: 1,
+		smeltedStack: { type: "item", code: "game:vegetable-cookedpapyrussplitroot" },
+		requiresContainer: false
+	}
+}

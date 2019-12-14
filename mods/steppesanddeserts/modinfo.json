@@ -1,11 +1,12 @@
 {
   "type": "code",
-  "modid": "steppesanddeserts",
-  "name": "steppesanddeserts",
-  "author": "Unknown",
-  "description": "To be added",
-  "version": "1.0.0",
-  "dependency": {
-    "game": "1.11.10"
+  "Name": "Steppes and Deserts",
+  "Version": "1.0.0",
+  "Description": "This mod adds plants, items, animals and more to improve and enhance the experience in steppe and desert biomes.",
+  "ModID": "steppesanddeserts",
+  "Authors": [ "Asgarus", "Pendanyk" ],
+  "RequiredOnClient": true,
+  "Dependencies": {
+		"game": "1.11.10"
   }
 }
